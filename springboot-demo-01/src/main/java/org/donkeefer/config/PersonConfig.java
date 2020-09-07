@@ -1,5 +1,6 @@
 package org.donkeefer.config;
 
+import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
@@ -8,24 +9,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * prefix是需要配置常量的一级目录
  */
 @ConfigurationProperties(prefix = "person")
+@Data
 public class PersonConfig {
 
     private String id;
     private String name;
-    
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    private String[] hobbies;
 }

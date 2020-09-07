@@ -1,0 +1,16 @@
+#对象语法
+server:
+  port: 8088
+
+#流式语法
+person: {id: 123,name: 华文暄}
+
+#数组的使用
+person:
+  id: 123
+  name: 华文暄
+  hobbies:
+    - 唱歌
+    - 跳舞
+    - 打炮
+

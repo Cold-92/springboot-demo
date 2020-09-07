@@ -33,6 +33,7 @@ public class PersonController {
         // 使用配置类动态配置常量
         person.setId(personConfig.getId());
         person.setName(personConfig.getName());
+        person.setHobbies(personConfig.getHobbies());
         return person;
     }
 }
