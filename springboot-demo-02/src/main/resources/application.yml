@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+#整合freemarker模板
+spring:
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .ftl
+
