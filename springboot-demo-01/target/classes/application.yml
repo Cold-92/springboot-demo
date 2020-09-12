@@ -1,0 +1,43 @@
+#对象语法
+server:
+  port: 8088
+
+#数组的使用
+person:
+  id: 123
+  name: 华文暄
+  hobbies:
+    - 唱歌
+    - 跳舞
+    - 打炮
+
+#解密密文包
+jasypt:
+  encryptor:
+    password: 123
+#账号密码明文
+info:
+  userName: ENC(NB7CuLBqHk2Tclus/OmTIw==)
+  password: ENC(zdqDJevZJgx8FmKxqgVlEw==)
+
+#调用多文档中的一个
+spring:
+  profiles:
+    active: prod
+
+#多文档整合在一个文档中
+---
+#开发环境
+spring:
+  profiles: dev
+
+server:
+   port: 8010
+
+---
+#生产环境
+spring:
+  profiles: prod
+
+server:
+  port: 8020

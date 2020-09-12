@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "org.donkeefer.config.PersonConfig",
+      "sourceType": "org.donkeefer.config.PersonConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "org.donkeefer.config.VegetablesConfig",
+      "sourceType": "org.donkeefer.config.VegetablesConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.hobbies",
+      "type": "java.lang.String[]",
+      "sourceType": "org.donkeefer.config.PersonConfig"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.String",
+      "sourceType": "org.donkeefer.config.PersonConfig"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "org.donkeefer.config.PersonConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "org.donkeefer.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.green-pepper",
+      "type": "java.lang.String",
+      "sourceType": "org.donkeefer.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "org.donkeefer.config.VegetablesConfig"
+    }
+  ],
+  "hints": []
+}
