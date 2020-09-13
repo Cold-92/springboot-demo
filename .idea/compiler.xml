@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-demo-05" />
         <module name="springboot-demo-04" />
         <module name="springboot-demo-03" />
         <module name="springboot-demo-02" />
@@ -18,6 +19,7 @@
       <module name="springboot-demo-02" target="11" />
       <module name="springboot-demo-03" target="11" />
       <module name="springboot-demo-04" target="11" />
+      <module name="springboot-demo-05" target="11" />
       <module name="springboot-demo1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +29,7 @@
       <module name="springboot-demo-02" options="-parameters" />
       <module name="springboot-demo-03" options="-parameters" />
       <module name="springboot-demo-04" options="-parameters" />
+      <module name="springboot-demo-05" options="-parameters" />
     </option>
   </component>
 </project>
