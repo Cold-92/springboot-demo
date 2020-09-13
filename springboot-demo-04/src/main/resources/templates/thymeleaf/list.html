@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--suppress ALL-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+      <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+      <script type="text/javascript" th:src="@{/webjars/jquery/3.5.1/jquery.js}"></script>
+</head>
+<body>
+      <table class="table table-hover">
+            <thead>
+                  <tr>
+                        <th>姓名</th>
+                        <th>年龄</th>
+                        <th>性别</th>
+                  </tr>
+            </thead>
+            <tbody>
+                  <tr th:each="guest:${guestList}">
+                        <td th:text="${guest.name}">cold92</td>
+                        <td th:text="${guest.age}">18</td>
+                        <td th:text="${guest.sex}">male</td>
+                        <td>
+                              <a th:href="@{/guest/toUpdate/}+${guest.name}">修改</a>
+                              <!-- 与表单关联，点击提交delete表单 -->
+<!--                              <button th:attr="url=@{/guest/}+${guest.name}" name="deleteBtn" type="submit">删除</button>-->
+                              <form th:action="@{/guest/}+${guest.name}" method="post">
+                                    <input type="hidden" name="_method" value="delete"/>
+                                    <button type="submit">删除</button>
+                              </form>
+                        </td>
+                  </tr>
+                  <!-- 删除不能使用GET方法，只能用表单改成DELETE方法 -->
+<!--                  <form id="deleteForm" method="post" style="display: inline">-->
+<!--                        <input type="hidden" name="_method" value="delete">-->
+<!--                  </form>-->
+            </tbody>
+      </table>
+      <a th:href="@{/guest/toAdd}">add</a>
+
+      <script type="text/javascript">
+            // prop表示修改属性值
+            $(function () {
+                $("button[name='deleteBtn']").click(function () {
+                    $("#deleteForm").prop("action", $(this).attr("url")).submit();
+                });
+            });
+      </script>
+</body>
+</html>

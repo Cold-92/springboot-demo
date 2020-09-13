@@ -1,0 +1,9 @@
+server:
+  port: 8089
+
+#解决springboot不能处理put和delete请求
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
