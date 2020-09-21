@@ -4,7 +4,6 @@ server:
 # 配置mysql
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test
     username: root
     password: 13013005866

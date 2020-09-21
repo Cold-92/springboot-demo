@@ -15,17 +15,17 @@
                   </tr>
             </thead>
             <tbody>
-                  <tr th:each="guest:${guestList}">
-                        <td th:text="${guest.name}">cold92</td>
-                        <td th:text="${guest.age}">18</td>
-                        <td th:text="${guest.sex}">male</td>
+                  <tr th:each="user:${userList}">
+                        <td th:text="${user.name}">cold92</td>
+                        <td th:text="${user.age}">18</td>
+                        <td th:text="${user.sex}">male</td>
                         <td>
-                              <a th:href="@{/guest/toUpdate(name=${guest.name})}">修改</a>
-                              <a th:href="@{/guest/delete(name=${guest.name})}">删除</a>
+                              <a th:href="@{/user/toUpdate(name=${user.name})}">修改</a>
+                              <a th:href="@{/user/delete(name=${user.name})}">删除</a>
                         </td>
                   </tr>
             </tbody>
       </table>
-      <a th:href="@{/guest/toAdd}">add</a>
+      <a th:href="@{/user/toAdd}">add</a>
 </body>
 </html>

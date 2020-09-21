@@ -6,12 +6,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.8.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.donkeefer</groupId>
-	<artifactId>springboot-demo-02</artifactId>
+	<artifactId>springboot-demo-03</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-demo-02</name>
+	<name>springboot-demo-03</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
