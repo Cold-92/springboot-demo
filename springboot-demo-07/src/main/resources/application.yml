@@ -1,5 +1,5 @@
 server:
-  port: 8089
+  port: 8088
 
 # 配置mysql,根据url自动识别Driver
 spring:
