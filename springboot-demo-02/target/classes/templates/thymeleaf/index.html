@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+</head>
+<body>
+      <!-- 变量表达式 -->
+<!--      <p th:text="${name}" >name</p>-->
+<!--      <h1 th:text="${restaurant.boss}">习近平</h1>-->
+<!--      <h1 th:text="${restaurant.chef}">李克强</h1>-->
+
+      <!-- 选择变量表达式 -->
+      <div th:object="${restaurant}">
+            <h1 th:text="*{boss}">习近平</h1>
+            <h1 th:text="*{chef}">李克强</h1>
+      </div>
+
+      <a href="welcome" th:text="@{welcome}">欢迎</a>
+
+      <p th:text="#{something}"></p>
+
+      <!-- 将footer整个标签插入div -->
+      <div th:insert="footer :: copy"></div>
+      <!-- 将footer整个标签替代div -->
+      <div th:replace="footer :: copy"></div>
+      <!-- 将footer整个标签中的内容插入div -->
+      <div th:include="footer :: copy"></div>
+</body>
+</html>
