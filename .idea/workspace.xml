@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b3c161-f938-4112-a3d7-f747dbf3fe31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/springboot-demo-02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/templates/freemarker/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/templates/thymeleaf/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-02/target/classes/templates/thymeleaf/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/springboot-demo-07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/org/cold92/Demo07Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/org/cold92/bean/Guest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/org/cold92/controller/GuestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/org/cold92/dao/GuestDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/org/cold92/service/GuestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/org/cold92/service/GuestServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/templates/thymeleaf/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/templates/thymeleaf/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/classes/templates/thymeleaf/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/test-classes/META-INF/springboot-demo-07.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-demo-07/target/test-classes/org/cold92/Demo07Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-demo-07/src/main/java/org/cold92" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -137,10 +104,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="第八次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="95" key="#Project_Structure" timestamp="1600656640066">
+    <state x="277" y="95" key="#Project_Structure" timestamp="1600781811094">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="95" key="#Project_Structure/0.0.1368.872@0.0.1368.872" timestamp="1600656640066" />
+    <state x="277" y="95" key="#Project_Structure/0.0.1368.872@0.0.1368.872" timestamp="1600781811094" />
     <state x="490" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1600659056215">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -153,14 +120,14 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1600778944433" />
-    <state x="0" y="24" key="CommitChangelistDialog2" timestamp="1600781210334">
+    <state x="0" y="24" key="CommitChangelistDialog2" timestamp="1600781242536">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="0" y="24" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1600781210334" />
-    <state x="465" y="192" key="FileChooserDialogImpl" timestamp="1600703345402">
+    <state x="0" y="24" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1600781242536" />
+    <state x="465" y="192" key="FileChooserDialogImpl" timestamp="1600818953051">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="465" y="192" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1600703345402" />
+    <state x="465" y="192" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1600818953051" />
     <state width="1312" height="335" key="GridCell.Tab.0.bottom" timestamp="1600781105919">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -205,13 +172,13 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="277" y="170" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1600781217122" />
-    <state x="368" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1600776631017">
+    <state x="368" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1600818932140">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="368" y="261" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1600776631017" />
-    <state x="102" y="90" key="new project wizard" timestamp="1600781180531">
+    <state x="368" y="261" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1600818932140" />
+    <state x="66" y="88" key="new project wizard" timestamp="1600781540319">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="102" y="90" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1600781180531" />
+    <state x="66" y="88" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1600781540319" />
   </component>
 </project>
